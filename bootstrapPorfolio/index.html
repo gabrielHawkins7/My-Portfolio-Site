@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>BootstrapPortfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -23,32 +24,23 @@
         </div>
     </nav>
     <div class="container" style="margin-top: 43px;">
-        <div class="row" style="margin-bottom: 15px;">
-            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center" style="margin-bottom: 13px;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/_FG_jbAGNsc" style="height: 204px;width: 371px;"></iframe></div>
+        <div class="row" style="margin-bottom: -35px;">
+            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/_FG_jbAGNsc" style="height: 204px;width: 371px;"></iframe></div>
             <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/bjRhjv7Rj6M" style="width: 371px;height: 204px;"></iframe></div>
         </div>
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="col-md-6 d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center" style="margin-bottom: 20px;"><img class="img-fluid d-md-flex imgOne" src="assets/img/Alex%20&%20Zach%20_%204-10-21%20_%20Renback%20Barn%201-55%20screenshot.png" loading="auto"></div>
-            <div class="col-md-6 d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><img class="img-fluid" src="assets/img/8-21-ektar_3.jpeg"></div>
-        </div>
-        <div class="row" style="margin-bottom: 24px;">
-            <div class="col d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/5_21_portra400_3_lowExp.jpeg"></div>
-            <div class="col d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/8-21_gold200__11.jpeg" style="margin-top: -53px;"></div>
-        </div>
-        <div class="row" style="margin-bottom: 14px;">
-            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><img class="img-fluid" src="assets/img/8-21_p400__2.jpeg" style="margin-top: -16px;"></div>
-            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><img class="img-fluid" src="assets/img/5-21-hp5_6.jpeg" style="margin-top: -69px;"></div>
-        </div>
-        <div class="row">
-            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><img class="img-fluid" src="assets/img/Red%20Knight%20Test%204.png" style="margin-top: -8px;"></div>
-            <div class="col d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><img class="img-fluid" src="assets/img/A006_04261210_C029.00_00_00_05.Still002.png" style="margin-top: -88px;"></div>
-        </div>
-        <div class="row">
-            <div class="col d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/2016_0405_21254700.jpeg" style="margin-top: -32px;"></div>
-            <div class="col d-flex justify-content-center align-items-center"><img class="img-fluid" src="assets/img/2016_0519_13063600.jpeg" style="margin-top: -79px;"></div>
-        </div>
     </div>
+    <section class="photo-gallery py-4 py-xl-5">
+        <div class="container">
+            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                <div class="col d-lg-flex flex-wrap align-content-sm-start align-items-xl-start item"><img class="img-fluid d-xl-flex" src="assets/img/Alex%20&%20Zach%20_%204-10-21%20_%20Renback%20Barn%201-55%20screenshot.png" loading="eager" style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/8-21-ektar_3.jpeg" loading="lazy" style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/A006_04261210_C029.00_00_00_05.Still002.png" loading="lazy" style="margin-bottom: 15px;"></div>
+                <div class="col d-xl-flex flex-wrap align-content-sm-start justify-content-xl-center align-items-xl-start item"><img class="img-fluid" src="assets/img/5_21_portra400_3_lowExp.jpeg" loading="eager" style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/Red%20Knight%20Test%204.png" loading="lazy" style="margin-bottom: 15px;"></div>
+                <div class="col flex-wrap align-content-sm-start item"><img class="img-fluid" src="assets/img/5-21-hp5_6.jpeg" loading="lazy" style="margin-bottom: 15px;"><img class="img-fluid" src="assets/img/8-21_gold200__11.jpeg" loading="lazy" style="margin-bottom: 15px;"></div>
+            </div>
+        </div>
+    </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
 </body>
 
 </html>
