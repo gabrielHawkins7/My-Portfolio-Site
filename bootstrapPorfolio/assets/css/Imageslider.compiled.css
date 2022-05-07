@@ -1,0 +1,47 @@
+.containerS {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  border: 2px solid white;
+}
+.containerS .imgS {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 600px 100%;
+}
+.containerS .background-imgS {
+  background-image: url("Red Knight Test 1_wireframe.png");
+}
+.containerS .foreground-imgS {
+  background-image: url("Red Knight Test 1.png");
+  width: 50%;
+}
+
+.sliderS {
+  position: absolute;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(242, 242, 242, 0.3);
+  outline: none;
+  margin: 0;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderS:hover {
+  background: rgba(242, 242, 242, 0.1);
+}
+.sliderS::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 6px;
+  height: 350px;
+  background: white;
+  cursor: pointer;
+}
