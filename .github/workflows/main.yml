@@ -15,3 +15,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "gabrielhawkinsportfoliosite" #Must be unique in Heroku
           heroku_email: "ghawkins3@radford.edu"
+          procfile: "web: vendor/bin/heroku-php-apache2"
